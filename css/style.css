@@ -35,7 +35,7 @@ body {
   margin-bottom: 10px;
 }
 
-.countDown {
+.countdown {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -45,7 +45,7 @@ body {
   min-width: 320px;
 }
 
-.countDown-item {
+.countdown-item {
   background-color: rgb(122, 191, 231);
   padding: 5px;
   min-width: 60px;
