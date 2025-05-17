@@ -6,6 +6,6 @@
 - Адаптивный дизайн для всех устройств.
 
 Технологии
-- HTML5, CSS3 (Flexbox/Grid)
+- HTML5, CSS3 (Flexbox)
 - Vanilla JavaScript
 - GitHub Pages (хостинг)
