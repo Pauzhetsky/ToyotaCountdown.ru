@@ -1,7 +1,7 @@
 const items = document.querySelectorAll('.countdown-item > h3');
 
 // Назначаем дату отсчёта (17 мая 2025, 23:59:59)
-let countdownDate = new Date(2027, 0, 1, 23, 59, 59).getTime();
+let countdownDate = new Date(2025, 4, 17, 5, 58, 59).getTime();
 
 function updateCountdown() {
   // Текущее время
@@ -31,7 +31,7 @@ function updateCountdown() {
   if (distance < 0) {
     clearInterval(timer);
     items.forEach((item) => (item.textContent = '0'));
-    console.log('Акция завершена');
+    alert('Акция завершена');
   }
 }
 
